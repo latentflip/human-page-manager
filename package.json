@@ -1,6 +1,6 @@
 {
   "name": "human-page-manager",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Page manager for human javascript applications",
   "main": "index.js",
   "scripts": {},

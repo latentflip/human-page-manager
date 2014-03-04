@@ -38,7 +38,7 @@
         if (view.bodyClass)
             this.$body.addClass(view.bodyClass);
 
-        document.title = this.makeTitle(_.result(view.title));
+        document.title = this.makeTitle(_.result(view, 'title'));
         this.$body.scrollTop(0);
 
         if (view.onShow) view.onShow();
